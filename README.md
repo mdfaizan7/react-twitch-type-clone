@@ -21,26 +21,38 @@ This is the complete code for my app Bit Connect, which is a social media app.
 2.  **Install Dependencies**
 
     ```shell
-    cd react-twitch-type-clone  
+    cd react-twitch-type-clone/client  
     npm install --save
     ```
 
     if you are using yarn...
 
     ```shell
-    cd react-twitch-type-clone 
+    cd react-twitch-type-clone/client
     yarn install
     ```
 
 3)  **Launch Project 🚀**
 
     ```shell
+    cd api
+    npm start
+    ```
+
+    ```shell
+    cd client
     npm start
     ```
 
     if you are using yarn...
 
     ```shell
+    cd api
+    yarn start
+    ```
+
+    ```shell
+    cd client
     yarn start
     ```
 
