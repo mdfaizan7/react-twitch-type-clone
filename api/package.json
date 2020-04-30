@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server -p 3001 -w db.json"
+    "start": "json-server -p 3001 -w db.json",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.16.0"
-  }
+    "json-server": "^0.16.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
