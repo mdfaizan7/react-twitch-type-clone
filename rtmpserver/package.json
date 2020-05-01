@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-media-server": "^2.1.4"
-  }
+    "node-media-server": "^2.1.4",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
